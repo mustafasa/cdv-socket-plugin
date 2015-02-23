@@ -1,22 +1,10 @@
 cdv-socket-plugin
 =================
 
-Cordova TCP Socket Plugin
+Cordova TCP SSL/TCL Socket Plugin
 
+Supported only Android/IOS.I've customize the original script so that it can connect to a secure tcp network .
 
-Follows the [Cordova Plugin spec](https://github.com/apache/cordova-plugman/blob/master/plugin_spec.md), so that it works with [Plugman](https://github.com/apache/cordova-plugman)
-
-## Cordova/Phonegap Support ##
-
-This plugin was tested and qualified using Cordova 3.4 adn Cordova 3.5. The demo app contains implementation for Android, iOS and Windows 8. You can check that out at [demo app repository](https://github.com/Tlantic/SocketPluginDemo)
-
-## Adding the plugin ##
-
-To add the plugin, just run the following command through cordova CLI:
-
-```
-cordova plugin add com.tlantic.plugins.socket
-```
 
 ## Using the plugin ##
 
